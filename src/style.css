@@ -92,3 +92,23 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 630px) {
+  p {
+    text-align: center;
+  }
+
+  .buttonLink {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .headingDescription {
+    text-align: center;
+  }
+
+  .mainImg {
+    display: none;
+  }
+}
